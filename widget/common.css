@@ -1,0 +1,24 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(215 215 215 / 85%);
+  border-radius: 10px;
+}
+::-webkit-scrollbar {
+  background-color: rgb(215 215 215 / 25%);
+  height: 4px; 
+  width: 4px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: rgb(215 215 215 / 85%);
+  border-radius: 10px;
+}
+::-moz-scrollbar {
+  background-color: rgb(215 215 215 / 25%);
+  height: 4px; 
+  width: 4px;
+}
